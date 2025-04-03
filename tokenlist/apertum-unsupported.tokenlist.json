@@ -1,0 +1,16 @@
+{
+  "name": "Apertum Token List",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "keywords": [
+    "apertum",
+    "tokens",
+    "trusted"
+  ],
+  "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg",
+  "timestamp": "2025-02-01T13:13:13+0000",
+  "tokens": []
+}

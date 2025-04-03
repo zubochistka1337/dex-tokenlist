@@ -1,0 +1,65 @@
+{
+  "name": "Apertum Token List",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 6
+  },
+  "keywords": [
+    "apertum",
+    "tokens",
+    "trusted"
+  ],
+  "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg",
+  "timestamp": "2025-02-23T12:00:00+0000",
+  "tokens": [
+    {
+      "name": "Wrapped APTM",
+      "chainId": 89898,
+      "symbol": "wAPTM",
+      "decimals": 18,
+      "address": "0x80435c19f576a8E07F22279194DBc1125D3a9e74",
+      "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg"
+    },
+    {
+      "name": "Wrapped USDT",
+      "chainId": 89898,
+      "symbol": "wUSDT",
+      "decimals": 18,
+      "address": "0x33F3588e393c39b62f4b0C5Eb1d093b2eff1349C",
+      "logoURI": "https://assets.apertum.io/assets/wusdt-aptm.svg"
+    },
+    {
+      "name": "Wrapped SOL",
+      "chainId": 89898,
+      "symbol": "wSOL",
+      "decimals": 18,
+      "address": "0xbB5279E977c2053601672c0E02bc6a60380Ba618",
+      "logoURI": "https://assets.apertum.io/assets/wsol-aptm.svg"
+    },
+    {
+      "name": "Wrapped APTM",
+      "chainId": 2786,
+      "symbol": "wAPTM",
+      "decimals": 18,
+      "address": "0x110Ac02Ba3384Bc055c13A87766049a74517BedA",
+      "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg"
+    },
+    {
+      "name": "Wrapped USDT",
+      "chainId": 2786,
+      "symbol": "wUSDT",
+      "decimals": 18,
+      "address": "0x1487Db421F6B58e77bfefc905fDc1EDE5Fb85C7F",
+      "logoURI": "https://assets.apertum.io/assets/wusdt-aptm.svg"
+    },
+    {
+      "name": "Wrapped SOL",
+      "chainId": 2786,
+      "symbol": "wSOL",
+      "decimals": 18,
+      "address": "0xf081DAa36f367F4A5f93AC68C14FB39b50a58Ef8",
+      "logoURI": "https://assets.apertum.io/assets/wsol-aptm.svg"
+    }
+  ]
+}
