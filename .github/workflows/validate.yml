@@ -1,0 +1,52 @@
+name: Validate Token List
+
+on:
+  pull_request:
+    paths:
+      - 'tokenlist/apertum-tokenlist.json'
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+  push:
+    branches:
+      - main
+    paths:
+      - 'tokenlist/apertum-tokenlist.json'
+      - 'src/**'
+      - 'package.json'
+      - 'package-lock.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check for package.json changes
+        run: |
+          if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep -q 'package.json'; then
+            echo "Error: Changes to package.json are not allowed. Please remove package.json changes from your PR."
+            exit 1
+          fi
+
+      - name: Check for package-lock.json changes
+        run: |
+          if git diff --name-only ${{ github.event.pull_request.base.sha }} ${{ github.event.pull_request.head.sha }} | grep -q 'package-lock.json'; then
+            echo "Error: Changes to package-lock.json are not allowed. Please remove package-lock.json from your PR."
+            exit 1
+          fi
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run validation
+        run: npm run validate
+
+      - name: Run tests
+        run: npm test 
