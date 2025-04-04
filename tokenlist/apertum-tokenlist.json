@@ -3,7 +3,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 7
+    "patch": 8
   },
   "keywords": [
     "apertum",
@@ -11,7 +11,7 @@
     "trusted"
   ],
   "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg",
-  "timestamp": "2025-04-03T12:00:00+0000",
+  "timestamp": "2025-04-04T10:08:00+0000",
   "tokens": [
     {
       "name": "Wrapped APTM",
@@ -60,6 +60,14 @@
       "decimals": 18,
       "address": "0xf081DAa36f367F4A5f93AC68C14FB39b50a58Ef8",
       "logoURI": "https://assets.apertum.io/assets/wsol-aptm.svg"
+    },
+    {
+      "name": "ANOUBIS",
+      "chainId": 2786,
+      "symbol": "ANOUBIS",
+      "decimals": 18,
+      "address": "0x8d38aFbD54020C15F02F7f1F848ec66E17c1004C",
+      "logoURI": "https://github.com/deloo25/anoubisicon/blob/main/logo.png?raw=true"
     }
   ]
 }
