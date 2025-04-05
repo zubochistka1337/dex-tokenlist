@@ -11,7 +11,7 @@
     "trusted"
   ],
   "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg",
-  "timestamp": "2025-04-04T12:30:00+0000",
+  "timestamp": "2025-04-05T07:03:00+0000",
   "tokens": [
     {
       "name": "Wrapped APTM",
@@ -84,6 +84,14 @@
       "symbol": "SKY",
       "decimals": 18,
       "logoURI": "https://github.com/Tekholms-LW/SKY/blob/main/Sky-token.png?raw=true"
+    },
+    {
+      "name": "PUGLORD",
+      "chainId": 2786,
+      "symbol": "PUG",
+      "decimals": 18,
+      "address": "0xC84B40231E270B827cEb0A27b78AA3fBa443Cf46",
+      "logoURI": "https://github.com/Danilo1103/pugicon/blob/main/pug_icon.png?raw=true"
     }
   ]
 }
