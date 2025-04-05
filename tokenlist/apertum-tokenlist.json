@@ -3,8 +3,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 9
-
+    "patch": 10
   },
   "keywords": [
     "apertum",
@@ -12,7 +11,7 @@
     "trusted"
   ],
   "logoURI": "https://assets.apertum.io/assets/apertum-logo.svg",
-  "timestamp": "2025-04-04T11:24:00+0000",
+  "timestamp": "2025-04-04T12:30:00+0000",
   "tokens": [
     {
       "name": "Wrapped APTM",
@@ -77,6 +76,14 @@
       "decimals": 18,
       "address": "0x59E7Af5eA3a7c95B2d3f2dd7bEF7fCB4E0ddD996",
       "logoURI": "https://github.com/deloo25/babyanoubisicon/blob/main/logoba.png?raw=true"
+    },
+    {
+      "chainId": 2786,
+      "address": "0x54687168079dd179cea93c42afe88650e1d4967c",
+      "name": "Sky",
+      "symbol": "SKY",
+      "decimals": 18,
+      "logoURI": "https://github.com/Tekholms-LW/SKY/blob/main/Sky-token.png?raw=true"
     }
   ]
 }
