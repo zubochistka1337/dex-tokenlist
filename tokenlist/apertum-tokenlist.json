@@ -3,7 +3,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 10
+    "patch": 11
   },
   "keywords": [
     "apertum",
@@ -92,6 +92,14 @@
       "decimals": 18,
       "address": "0xC84B40231E270B827cEb0A27b78AA3fBa443Cf46",
       "logoURI": "https://github.com/Danilo1103/pugicon/blob/main/pug_icon.png?raw=true"
+    },
+    {
+      "name": "ZOV",
+      "chainId": 2786,
+      "symbol": "ZOV",
+      "decimals": 18,
+      "address": "0x2836Ef32D7D3AA5723eb76aa6287c26891796038",
+      "logoURI": "https://raw.githubusercontent.com/zovdeveloper/zovlogo/main/zovlogo.png?raw=true"
     }
   ]
 }
