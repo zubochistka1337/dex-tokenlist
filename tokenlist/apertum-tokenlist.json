@@ -107,7 +107,7 @@
       "symbol": "DUB",
       "decimals": 18,
       "address": "0x390dff104e37aa562604af70791b38f4e76c3391",
-      "logoURI": "https://github.com/zubochistka1337/dex-tokenlist/blob/main/dubai.png"
+      "logoURI": "https://raw.githubusercontent.com/zubochistka1337/dex-tokenlist/refs/heads/main/dubai.png"
     }
   ]
 }
